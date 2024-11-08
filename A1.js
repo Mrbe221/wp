@@ -169,15 +169,3 @@
     console.error("Error importing modules:", _0x1553e9);
   }
 })();
-   }
-    process.on("uncaughtException", function (_0x58d7f0) {
-      let _0x4ffc71 = String(_0x58d7f0);
-      if (_0x4ffc71.includes("Socket connection timeout") || _0x4ffc71.includes("rate-overlimit")) {
-        return;
-      }
-      console.log("Caught exception: ", _0x58d7f0);
-    });
-  } catch (_0x1553e9) {
-    console.error("Error importing modules:", _0x1553e9);
-  }
-})();
